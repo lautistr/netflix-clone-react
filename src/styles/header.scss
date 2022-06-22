@@ -1,0 +1,62 @@
+@import 'vars';
+
+header {
+    width: 100vw;
+    height: 108px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+}
+
+.navbar-top {
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    margin-left: 8px;
+    height: 44px;
+}
+
+.logo-container img {
+    width: 44px;
+}
+
+.profile-container {
+    margin-right: 12px;
+    height: 28px;
+}
+
+.profile-container img {
+    width: 28px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.link-container {
+    display: grid;
+    grid-template-columns: 2.5fr 3fr 4.5fr;
+}
+
+.navbar-bottom li {
+    list-style: none;
+    color: var(--white);
+    font-size: 1.3rem;
+    justify-self: center;
+}
+
+.link-container li span {
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url("../assets/icons/drop-down-white-arrow.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+

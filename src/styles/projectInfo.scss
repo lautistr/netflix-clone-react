@@ -1,0 +1,212 @@
+@import 'vars';
+
+article {
+    background-color: var(--black);
+}
+
+// header {
+//     background-color: var(--black);
+//     display: flex;
+//     justify-content: space-between;
+//     height: 8vh;
+//     align-items: center;
+// }
+
+// .header__left {
+//     margin-left: 8px;
+//     height: 20px;
+//     width: 20px;
+//     background-image: url('../assets/icons/white-left-arrow.png');
+//     background-position: center;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+// }
+
+// .header__right {
+//     display: flex;
+//     align-items: center;
+// }
+
+// .header--search {
+//     margin-right: 20px;
+//     height: 20px;
+//     width: 20px;
+//     background-image: url('../assets/icons/white-search.png');
+//     background-position: center;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+// }
+
+// .header--profile-container {
+//     margin-right: 12px;
+//     height: 28px;
+// }
+
+// .header--profile-container img {
+//     width: 28px;
+//     border-radius: 4px;
+//     object-fit: cover;
+// }
+
+.movie__image-container {
+    position: relative;
+    display: block;
+    height: 29vh;
+    width: 100vw;
+    background-image: url('../assets/html-version/theboys-poster-h.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movie__image-container p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 120px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 4px;
+    background-color:rgba(0, 0, 0, 0.45);
+}
+
+.movie__title {
+    margin: 8px 0 0 8px;
+    font-size: 2.2rem;
+}
+
+.movie__features {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    margin-left: 8px;
+    padding: 8px 0;
+}
+
+.movie__features li {
+    list-style: none;
+    font-size: 1.1rem;
+    color: var(--grey);
+}
+
+.movie__features .features--age {
+    background-color: var(--shadow);
+    border-radius: 2px;
+    width: 24px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.primary-buttons__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie__button {
+    width: 95%;
+    height: 40px;
+    margin: 4px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.movie__button span {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.watch {
+    background-color: var(--primary-button);
+    color: var(--black);
+}
+
+.watch span {
+    width: 12px;
+    height: 12px;
+    background-image: url('../assets/icons/play-black.png');
+}
+
+.download {
+    background-color: var(--secondary-button);
+    color: var(--white);
+}
+
+.download span {
+    width: 12px;
+    height: 12px;
+    background-image: url('../assets/icons/white-download.png');
+}
+
+.movie__description {
+    margin-left: 8px;
+    color: var(--grey);
+    margin-bottom: 2px;
+}
+
+article .overview {
+    margin: 6px 8px;
+    font-size: 1.2rem;
+    color: var(--white);
+}
+
+.secondary-buttons__container {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60px;
+}
+
+.secondary-buttons__container button {
+    height: 60px;
+    width: 60px;
+    background: none;
+    border: none;
+    color: var(--white);
+    font-size: 1rem;
+}
+
+.secondary-buttons__container div {
+    height: 40px;
+    width: 60px;
+}
+
+.secondary-buttons__container button div span {
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button--my-list p {
+    font-size: 3rem;
+}
+
+.button--rate p {
+    font-size: 2rem;
+}
+
+.button--share span {
+    height: 16px;
+    width: 16px;
+    background-image: url('../assets/icons/white-share.png');
+}
+
+.button--download span {
+    height: 16px;
+    width: 16px;
+    background-image: url('../assets/icons/white-download.png');
+}
+
+.secondary-buttons__container button div span {
+    margin: 12px 22px;
+}

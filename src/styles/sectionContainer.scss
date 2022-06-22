@@ -1,0 +1,29 @@
+@import 'vars';
+
+.section__main-container {
+    margin-left: 6px;
+    margin-top: 8px;
+}
+
+.section__title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 6px 0;
+}
+
+.section__scroll-container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 180px;
+}
+
+.movie__image {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.movie__image img {
+    width: 100px;
+    border-radius: 4px;
+}

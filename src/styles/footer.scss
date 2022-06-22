@@ -1,0 +1,35 @@
+@import 'vars';
+
+footer {
+    position: sticky;
+    bottom: 0;
+    width: 100vw;
+    height: 52px;
+    background-color: var(--soft-black);
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-item-container {
+    margin-top: 7px;
+    list-style: none;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item-container img {
+    height: 24px;
+    width: 24px;
+    background-color: var(--white);
+    align-self: center;
+}
+
+.footer-item-container span {
+    color: var(--white);
+    font-size: 0.9rem;
+    margin-top: 4px;
+}
